@@ -10,7 +10,7 @@ srcdir = '../app'
 appdir = os.path.abspath(os.path.join(testdir, srcdir))
 sys.path.insert(0, appdir)
 
-# importar aquí librerías locales
+# importar aquí librerías locales (considerar si está en common o dentro de un módulo en el directorio modules)
 # from tools.tools import find_index_among_zeroes
 
 # para poder acceder a los directorios de app
