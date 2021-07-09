@@ -1,5 +1,14 @@
-app/storage/logs/*
-!app/storage/logs/.gitkeep
+# Ignore everything in 'uploads' folder
+storage/**
+# exclude subdirectories
+!storage/**/
+# and .gitkeep files.
+!.gitkeep
+
+*.json
+*.csv
+*.jpg
+*.png
 
 # Project
 .idea/
