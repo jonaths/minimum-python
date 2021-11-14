@@ -11,3 +11,10 @@
 ## Instalación
 1. Crear virtualenv `virtualenv env --python=python3`
 2. Instalar requerimientos `pip install -r requirements.txt`
+3. Crear archivo .env y agregar la variable de ambiente `STORAGE_LOGS`
+
+    `STORAGE_LOGS = '/home/Data/Codigo/minimum-python/app/common/storage/logs'`
+   
+## Demo
+
+Correr el comando en app `python cmd_hello_world.py --message "hello world"`
