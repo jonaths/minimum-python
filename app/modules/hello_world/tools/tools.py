@@ -7,3 +7,5 @@ def say_hello(message):
     console.print(message, style="bold blue")
 
     log.info(message)
+
+    return message
