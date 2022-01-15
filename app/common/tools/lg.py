@@ -7,10 +7,10 @@ class Logger:
 
     def __init__(self, name='log', log_level='DEBUG', stage='local', log_dir='logs'):
         """
-        Configura un logger que cambia cada día
-        :param name: el nombre del logger
-        :param log_level: DEBUG por ejemplo
-        :param stage: el stage del proyecto (local)
+        Configure a logger that rotates every day
+        :param name: name of the logger
+        :param log_level: INFO, DEBUG, etc
+        :param stage:  stage of the project
         """
         self.logger = logging.getLogger(name)
         self.logger.setLevel(log_level)

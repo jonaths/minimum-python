@@ -6,7 +6,7 @@ from common.tools.lg import Logger
 
 load_dotenv(verbose=True)
 
-# Poner aquí cualquier otra variable que haya que cargar del archivo .env
+# List any variables here that need to be loaded from the .env file
 
 ENV_VAR = os.getenv('ENV_VAR', 'TEST')
 STORAGE_LOGS = os.getenv('STORAGE_LOGS')

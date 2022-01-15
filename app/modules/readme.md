@@ -1,13 +1,14 @@
-# Módulo del proyecto
+# Project Module
 
-## Descripción
+## Description
 
-El objetivo de esta estructura es aislar las funcionalidades de un proyecto por módulos. 
-Cada módulo tiene todos los archivos necesarios para funcionar independientemente y puede ser llamado
-desde otras partes del código, por ejemplo desde app/. 
+The goal of this directory structure is to break the functionalities of the
+project into modules.  Each module has all the necessary files to function
+independently and can be called from other parts of the code, for example from
+/app.
 
-## Puntos importantes
+## Points of Note
 
-- Renombrar module_name de acuerdo a la funcionalidad del módulo (si solo hay una funcionalidad)
-- Agregar más carpetas con la misma estructura que module_name de acuerdo conforme se agreguen nuevas funcionalidades
-- La idea es que cualquier archivo dentro de la carpeta modules se pueda llamar desde un archivo como main.py en app
+- Change module_name to be consistent with the module functionality
+- Duplicate the structure of module_name to add additional modules
+- The expectation is for any file inside the modules folder to be called from /app

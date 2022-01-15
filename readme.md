@@ -1,20 +1,24 @@
-# Proyecto mínimo de Python
+# Minimal Python Project
 
-## Características
+## Note
 
-1. Directorio tests configurado para probar y leer archivos desde el directorio app/ 
-2. Archivo config.py para leer variables de ambiente desde un archivo .env en el root
-3. Archivo .gitignore
-4. Archivo requirements.txt con librería rich (para imprimir en la consola) y python-dotenv (para cargar variables de ambiente desde el archivo .env)
-5. Dockerfile para construir un contenedor que instala las librerías necesarias usando virtualenv
+This is simply a fork of https://github.com/jonaths/minimum-python except with documentation and comments translated into English, to make my life a little easier.  All kudos should go to @jonaths, though!
 
-## Instalación
-1. Crear virtualenv `virtualenv env --python=python3`
-2. Instalar requerimientos `pip install -r requirements.txt`
-3. Crear archivo .env y agregar la variable de ambiente `STORAGE_LOGS`
+## Contents
 
-    `STORAGE_LOGS = '/home/Data/Codigo/minimum-python/app/common/storage/logs'`
+1. tests directory configured to read and test files stored in the app directory 
+2. onfig.py file that reads environment variables from the .env file stored in the project root directory
+3. Fully populated .gitignore file
+4. requirements.txt with modules required to process environment variables and rich logging to console
+5. Dockerfile to build a container that install the required modules and configures virtualenv
+
+## Installation
+1. Create virtualenv `virtualenv env --python=python3`
+2. Install requirements `pip install -r requirements.txt`
+3. Create .env file and add the environment variable `STORAGE_LOGS`
+
+    `STORAGE_LOGS = '/home/ropetin/minimum-python/app/common/storage/logs'`
    
 ## Demo
 
-Correr el comando en app `python cmd_hello_world.py --message "hello world"`
+Run the application in app `python cmd_hello_world.py --message "hello world"`
